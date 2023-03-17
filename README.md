@@ -1,1 +1,1 @@
-# TIS-100
+# My solutions to the programming game TIS-100
