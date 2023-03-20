@@ -1,0 +1,66 @@
+@0
+## NO BAK
+
+@1
+START:
+  MOV UP, ACC
+
+  JEZ ZERO
+
+ELSE:
+  MOV 0, RIGHT
+  JMP START
+
+ZERO:
+  MOV 1, RIGHT
+
+@2
+MOV LEFT, DOWN
+
+@3
+
+
+@4
+
+
+@5
+INIT:
+  MOV -3, ACC
+START:
+  MOV ACC, RIGHT
+  MOV UP, ACC
+  JEZ ELSE
+
+COUNT:
+  ADD RIGHT
+  MOV ACC, DOWN
+  JMP START
+
+ELSE:
+  MOV -1, DOWN
+  MOV RIGHT, NIL
+
+@6
+MOV LEFT, LEFT
+
+@7
+
+
+@8
+
+
+@9
+START:
+  MOV UP, ACC
+
+  JLZ NO
+
+
+YES:
+  MOV 1, DOWN
+  JMP START
+
+NO:
+  MOV 0, DOWN
+
+@10

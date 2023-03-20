@@ -1,0 +1,69 @@
+@0
+## ORIGINAL W/BAK
+
+@1
+START:
+  MOV UP, ACC
+
+  JEZ ZERO
+
+ELSE:
+  MOV 0, RIGHT
+  JMP START
+
+ZERO:
+  MOV 1, RIGHT
+
+@2
+MOV LEFT, ACC
+
+MOV ACC, DOWN
+MOV ACC, DOWN
+
+@3
+
+
+@4
+
+
+@5
+RESET: MOV -3, ACC
+START:
+  SAV
+  MOV UP, ACC
+  JGZ COUNT
+  JEZ DROP
+DROP:
+  MOV -1, DOWN
+  MOV UP, NIL
+  JMP RESET
+COUNT:
+  SWP
+  ADD ANY
+  MOV ACC, DOWN
+  JMP START
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+START:
+  MOV UP, ACC
+
+  JLZ NO
+
+
+YES:
+  MOV 1, DOWN
+  JMP START
+
+NO:
+  MOV 0, DOWN
+
+@10
