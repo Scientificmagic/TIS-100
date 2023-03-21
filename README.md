@@ -11,6 +11,6 @@ Sequence Generator      | 135-5-18            | ✔️
 Sequence Counter        | 280-9-29            | ❌
 Interrupt Handler       | 207-10-51           | ✔️
 Signal Pattern Detector | 258-9-47            | ✔️
-Sequence Peak Detector  | |
+Sequence Peak Detector  | 392-8-64            | ✔️
 Sequence Reverser       | |
 Signal Multiplier       | |
