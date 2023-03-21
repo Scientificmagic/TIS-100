@@ -5,7 +5,7 @@ Puzzle                  | Best Solution Stats | Final?
 Self Test Diagonstic    | 83-8-8              | ✔️
 Signal Amplifier        | 84-5-11             | ✔️
 Differential Converter  | 238-6-14            | ✔️
-Signal Comparator       | 278-6-20            | ❌
+Signal Comparator       | 278-6-20            | ✔️
 Signal Multiplexer      | 203-7-21            | ✔️
 Sequence Generator      | 135-5-18            | ✔️
 Sequence Counter        | 280-9-29            | ❌
