@@ -12,5 +12,5 @@ Sequence Counter        | 280-9-29            | ❌
 Interrupt Handler       | 207-10-51           | ✔️
 Signal Pattern Detector | 258-9-47            | ✔️
 Sequence Peak Detector  | 392-8-64            | ✔️
-Sequence Reverser       | |
+Sequence Reverser       | 447-4-19            | ❌
 Signal Multiplier       | |

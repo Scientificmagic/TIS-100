@@ -1,0 +1,53 @@
+@0
+
+
+@1
+MOV 0, RIGHT
+
+START:
+  MOV UP, ACC
+  JGZ PUSH
+
+POP:
+  MOV 1, DOWN
+  MOV DOWN, NIL
+  JRO -5
+
+PUSH:
+  MOV ACC, RIGHT
+  JMP START
+
+@2
+
+
+@3
+
+
+@4
+MOV UP, RIGHT
+
+MOV RIGHT, UP
+
+@5
+MOV LEFT, NIL
+
+START:
+  MOV UP, ACC
+  JGZ PUSH
+
+STOP:
+  MOV ACC, DOWN
+  MOV 1, LEFT
+  JRO -5
+
+PUSH:
+  MOV ACC, DOWN
+  JMP START
+
+@6
+
+
+@7
+MOV UP, DOWN
+
+@8
