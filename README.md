@@ -13,4 +13,8 @@ Interrupt Handler       | 207-10-51           | ✔️
 Signal Pattern Detector | 258-9-47            | ✔️
 Sequence Peak Detector  | 392-8-64            | ✔️
 Sequence Reverser       | 447-4-19            | ❌
-Signal Multiplier       | |
+Signal Multiplier       | 2003-4-30           | ❔
+Image Test Pattern 1    ||
+Image Test Pattern 2    ||
+Exposure Mask Viewer    ||
+Histogram Viewer        ||

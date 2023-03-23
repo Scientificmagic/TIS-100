@@ -1,0 +1,61 @@
+@0
+
+
+@1
+MOV UP, ACC
+SAV
+
+START:
+  MOV RIGHT, ACC
+  JGZ DO
+  JRO -4
+
+DO:SWP
+   MOV ACC, RIGHT
+   SWP
+   JMP START
+
+@2
+MOV UP, ACC
+START:
+  JGZ DO
+
+NO:MOV -1, DOWN
+   MOV 0, LEFT
+   JRO -4
+
+
+DO:MOV ACC, LEFT
+   SUB 1
+   MOV LEFT, DOWN
+   JMP START
+
+@3
+
+
+@4
+
+
+@5
+START:
+  MOV UP, ACC
+  JGZ SUM
+  JEZ SUM
+OUT:MOV 0, ACC
+    SWP
+    MOV ACC, DOWN
+    JMP START
+
+
+SUM:MOV ACC, RIGHT
+    SWP
+    ADD RIGHT
+    SWP
+
+@6
+
+
+@7
+MOV UP, DOWN
+
+@8
