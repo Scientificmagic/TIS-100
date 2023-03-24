@@ -8,7 +8,7 @@ Differential Converter  | 238-6-14            | ✔️
 Signal Comparator       | 278-6-20            | ✔️
 Signal Multiplexer      | 203-7-21            | ✔️
 Sequence Generator      | 135-5-18            | ✔️
-Sequence Counter        | 280-9-29            | ❌
+Sequence Counter        | 280-9-29            | ✔️
 Interrupt Handler       | 207-10-51           | ✔️
 Signal Pattern Detector | 258-9-47            | ✔️
 Sequence Peak Detector  | 392-8-64            | ✔️
