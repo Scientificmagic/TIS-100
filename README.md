@@ -17,4 +17,8 @@ Signal Multiplier       | 2003-4-30           | ❔
 Image Test Pattern 1    | 1436-1-15           | ✔️
 Image Test Pattern 2    | 1415-7-44           | ✔️
 Exposure Mask Viewer    | 858-7-64            | ✔️
-Histogram Viewer        ||
+Histogram Viewer        | 2615-5-30           | ✔️
+Signal Window Filter    ||
+Signal Divider          ||
+Sequence Indexer        ||
+Sequence Sorter         ||

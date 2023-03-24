@@ -1,0 +1,69 @@
+@0
+
+
+@1
+MOV UP, DOWN
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP, ACC
+
+MOV ACC, RIGHT
+
+MOV ACC, DOWN
+
+@6
+# X MEM
+ST:MOV LEFT, ACC
+
+LP:JGZ SD
+   SWP
+   ADD 1
+   SWP
+   JMP ST
+
+SD:SWP
+   MOV ACC, DOWN
+   SWP
+   SUB 1
+   JMP LP
+
+@7
+
+
+@8
+# Y MEM
+ST:MOV 17, ACC
+   SAV
+   MOV UP, ACC
+
+LP:JGZ SD
+   JMP ST
+
+SD:SWP
+   MOV ACC, RIGHT
+   SUB 1
+   SWP
+   SUB 1
+   JMP LP
+
+@9
+MOV UP, DOWN#X
+MOV LEFT, DOWN#Y
+
+MOV 3, DOWN
+MOV -1, DOWN
+
+@10
+# X   0 -> 29
+# Y  17 -> 0
+
+# FIRST TRY
