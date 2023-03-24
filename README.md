@@ -15,6 +15,6 @@ Sequence Peak Detector  | 392-8-64            | ✔️
 Sequence Reverser       | 447-4-19            | ❌
 Signal Multiplier       | 2003-4-30           | ❔
 Image Test Pattern 1    | 1436-1-15           | ✔️
-Image Test Pattern 2    ||
+Image Test Pattern 2    | 1415-7-44           | ✔️
 Exposure Mask Viewer    ||
 Histogram Viewer        ||
