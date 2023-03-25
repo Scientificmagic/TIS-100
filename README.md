@@ -18,7 +18,7 @@ Image Test Pattern 1    | 1436-1-15           | ✔️
 Image Test Pattern 2    | 1415-7-44           | ✔️
 Exposure Mask Viewer    | 858-7-64            | ✔️
 Histogram Viewer        | 2615-5-30           | ✔️
-Signal Window Filter    ||
+Signal Window Filter    | 690-9-35            | ✔️
 Signal Divider          ||
 Sequence Indexer        ||
 Sequence Sorter         ||
