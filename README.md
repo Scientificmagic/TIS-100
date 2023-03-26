@@ -20,5 +20,5 @@ Exposure Mask Viewer    | 858-7-64            | ✔️
 Histogram Viewer        | 2615-5-30           | ✔️
 Signal Window Filter    | 690-9-35            | ✔️
 Signal Divider          | 8124-6-44           | ❔
-Sequence Indexer        ||
+Sequence Indexer        | 2368-6-37           | ❔
 Sequence Sorter         ||
