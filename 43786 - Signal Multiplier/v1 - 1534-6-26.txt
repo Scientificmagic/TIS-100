@@ -1,0 +1,51 @@
+@0
+ST:MOV RIGHT, ACC
+   SAV
+   MOV RIGHT, ACC
+   MOV ACC, DOWN
+
+LP:JGZ MX
+   JMP ST
+
+MX:SWP
+   MOV ACC, DOWN
+   SWP
+   SUB 1
+   JMP LP
+
+@1
+MOV UP, LEFT
+
+MOV RIGHT, LEFT
+
+@2
+MOV UP, LEFT
+
+@3
+##SINGLE STACK ADD
+
+@4
+ST:MOV LEFT, ACC
+
+LP:JGZ AD
+   JMP OT
+
+AD:SWP
+   ADD LEFT
+   SWP
+   SUB 1
+   JMP LP
+
+OT:SWP
+   MOV ACC, DOWN
+
+@5
+
+
+@6
+MOV UP, RIGHT
+
+@7
+MOV LEFT, DOWN
+
+@8
