@@ -31,7 +31,7 @@ DO:MOV ACC, LEFT
    JMP START
 
 @3
-
+##ORIGINAL V0
 
 @4
 
